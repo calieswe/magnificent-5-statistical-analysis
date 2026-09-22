@@ -38,5 +38,10 @@ Data preprocessing included flattening multi-index columns returned by `yfinance
 - **Jupyter Notebook**
 
 ## Files
+- `Stock_Price_Explore.ipynb` — the analysis notebook (Python)
+- `Magnificent5_stockprice.csv` / `Magnificent5_stockprice_clean.csv` — raw and cleaned 5-year price data for the five stocks
+- `NASDAQ_screener_clean.csv` / `nasdaq_screener_1777050489651.csv` — cleaned and raw NASDAQ company data (~7,000 firms)
+- `Swe Swe Aung_Programming_Project_Report.pdf` — full project report
 
-- `Swe Swe Aung_ID_25167219_Programming_Project_Report.pdf` — Full project report with methodology, results, and figures.
+## Data
+Price data was pulled from Yahoo Finance via the yfinance library; company data from the NASDAQ stock screener.
